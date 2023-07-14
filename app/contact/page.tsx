@@ -15,7 +15,7 @@ const socials = [
 		icon: <Facebook size={20} />,
 		href: "https://www.facebook.com/Paarabo?mibextid=ZbWKwL",
 		label: "Facebook",
-		handle: "ban-sombo",
+		handle: "ban-sambo",
 	},
 	{
 		icon: <Music size={20} />,
