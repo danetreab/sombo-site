@@ -1,27 +1,45 @@
 "use client";
-import { Github, Mail, Twitter } from "lucide-react";
+import { Facebook, Github, Instagram, Linkedin, Mail, Music, Phone, Send, Twitter } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 
 const socials = [
 	{
-		icon: <Twitter size={20} />,
-		href: "https://twitter.com/chronark_",
-		label: "Twitter",
-		handle: "@chronark_",
+		icon: <Linkedin size={20} />,
+		href: "https://www.linkedin.com/in/ban-sambo/",
+		label: "Linkedin",
+		handle: "Ban-Sambo",
 	},
 	{
-		icon: <Mail size={20} />,
-		href: "mailto:dev@chronark.com",
-		label: "Email",
-		handle: "dev@chronark.com",
+		icon: <Facebook size={20} />,
+		href: "https://www.facebook.com/Paarabo?mibextid=ZbWKwL",
+		label: "Facebook",
+		handle: "ban-sombo",
 	},
 	{
-		icon: <Github size={20} />,
-		href: "https://github.com/chronark",
-		label: "Github",
-		handle: "chronark",
+		icon: <Music size={20} />,
+		href: "https://www.tiktok.com/@paarabo?_t=8dyam6s5tJJ&_r=1",
+		label: "Tiktok",
+		handle: "paarabo",
+	},
+	{
+		icon: <Instagram size={20} />,
+		href: "https://instagram.com/paaraboz?igshid=MzNlNGNkZWQ4Mg==",
+		label: "Instagram",
+		handle: "paaraboz",
+	},
+	{
+		icon: <Send size={20} />,
+		href: "https://t.me/Ban_sambo",
+		label: "Telegram",
+		handle: "@Ban_sambo",
+	},
+	{
+		icon: <Phone size={20} />,
+		href: "tel:069459250",
+		label: "Phone",
+		handle: "...",
 	},
 ];
 
@@ -29,7 +47,7 @@ export default function Example() {
 	return (
 		<div className=" bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0">
 			<Navigation />
-			<div className="container flex items-center justify-center min-h-screen px-4 mx-auto">
+			<div className="container flex items-center justify-center min-h-screen px-4 mx-auto pb-24 md:py-24">
 				<div className="grid w-full grid-cols-1 gap-8 mx-auto mt-32 sm:mt-0 sm:grid-cols-3 lg:gap-16">
 					{socials.map((s) => (
 						<Card>
