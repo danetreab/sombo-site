@@ -14,7 +14,7 @@ const About = () => {
                 </div>
                 <div>
                     <h1 className="z-10 text-4xl text-transparent duration-200 bg-white cursor-default text-edge-outline animate-title font-display sm:text-5xl md:text-8xl whitespace-nowrap bg-clip-text ">
-                        Ban Sombo
+                        Ban Sambo
                     </h1>
                     <h2 className="text-sm text-zinc-500 ">
                         ...

@@ -6,16 +6,16 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
 	title: {
-		default: "sombo",
-		template: "%s | sombo",
+		default: "sambo",
+		template: "%s | sambo",
 	},
 	description: "...",
 	openGraph: {
-		title: "sombo-site",
+		title: "sambo-site",
 		description:
 			"...",
 		url: "...",
-		siteName: "sombo-site",
+		siteName: "sambo-site",
 		images: [
 			{
 				url: "ww.image/og.jfif",
