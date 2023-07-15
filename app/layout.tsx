@@ -14,11 +14,11 @@ export const metadata: Metadata = {
 		title: "sambo-site",
 		description:
 			"...",
-		url: "sambo.threecup.com",
+		url: "https://sambo.threecup.com",
 		siteName: "sambo-site",
 		images: [
 			{
-				url: "sambo.threecup.com/og.png",
+				url: "https://sambo.threecup.com/og.png",
 				width: 720,
 				height: 720
 			},
