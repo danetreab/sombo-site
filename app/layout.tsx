@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 		siteName: "sambo-site",
 		images: [
 			{
-				url: "ww.image/og.jfif",
+				url: "sambo.threecup.com/og.jfif",
 				width: 1920,
 				height: 1080,
 			},
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
 		},
 	},
 	twitter: {
-		title: "Chronark",
+		title: "sambo",
 		card: "summary_large_image",
 	},
 	icons: {
