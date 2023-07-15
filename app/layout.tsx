@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 		siteName: "sambo-site",
 		images: [
 			{
-				url: "/og.png",
+				url: "sambo.threecup.com/og.png",
 				width: 720,
 				height: 720
 			},
