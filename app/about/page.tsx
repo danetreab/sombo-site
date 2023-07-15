@@ -89,6 +89,7 @@ const About = () => {
                                 placeholder="Your name"
                                 value={mailInfo.name}
                                 type="text"
+                                required
                                 className="border-2 outline-none text-2xl p-4 font-semibold w-full"
                             />
                             <input
@@ -96,6 +97,7 @@ const About = () => {
                                 placeholder="Email"
                                 value={mailInfo.from}
                                 type="email"
+                                required
                                 className="border-2 outline-none text-2xl p-4 font-semibold w-full"
                             />
                         </div>
@@ -106,6 +108,7 @@ const About = () => {
                             rows={5}
                             placeholder="Message"
                             value={mailInfo.message}
+                            required
                             className="border-2 outline-none text-2xl p-4 font-semibold w-full resize-none"
                         />
                         <p className='text-sm text-zinc-500'>{isLoading ? 'Sending Mail' : mailState?.message}</p>
