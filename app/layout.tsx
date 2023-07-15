@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 		siteName: "sambo-site",
 		images: [
 			{
-				url: "sambo.threecup.com/og.jfif",
+				url: "sambo.threecup.com/og.png",
 			},
 		],
 		locale: "en-US",
