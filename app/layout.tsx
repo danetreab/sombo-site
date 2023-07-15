@@ -19,6 +19,8 @@ export const metadata: Metadata = {
 		images: [
 			{
 				url: "sambo.threecup.com/og.png",
+				width: 720,
+				height: 720
 			},
 		],
 		locale: "en-US",
