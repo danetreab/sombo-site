@@ -7,14 +7,14 @@ import { Analytics } from "./components/analytics";
 export const metadata: Metadata = {
 	title: {
 		default: "sambo",
-		template: "%s | sambo",
+		template: "sambo",
 	},
 	description: "...",
 	openGraph: {
 		title: "sambo-site",
 		description:
 			"...",
-		url: "...",
+		url: "sambo.threecup.com",
 		siteName: "sambo-site",
 		images: [
 			{
